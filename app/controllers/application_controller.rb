@@ -1,11 +1,11 @@
 class ApplicationController < Sinatra::Base
   set :default_content_type, 'application/json'
   
-  # Add your routes here
-  #   get '/dogs' do
-  #     dogs = Dog.all
-  #     dogs.to_json
-  # end
+  Add your routes here
+    get '/dogs' do
+      dogs = Dog.all
+      dogs.to_json
+  end
 
   # #post a dog
   # post '/dogs' do
