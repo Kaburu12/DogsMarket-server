@@ -41,12 +41,12 @@ post '/bookings' do
 end
 
 
-  # patch '/dogs/:id' do
-  #   dog = Dog.find(params[:id])
-  #   dog.update(
-  #     price: params[:price]
-  #   )
-  #   dog.to_json
-  # end
+  patch '/bookings/:id' do
+    bookig = Booking.find(params[:id])
+    booking.update(
+      price: params[:price]
+    )
+    dog.to_json
+  end
 
 end
