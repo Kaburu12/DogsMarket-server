@@ -6,8 +6,8 @@ puts "Deleting old data..."
 # Dogs.destroy_all
 # User.destroy_all
 
-# puts "Creating users..."
-# user= User.create(name: "Mike Kaburu" )
+puts "Creating users..."
+user= User.create(name: "Mike Kaburu" )
 
 # puts "Creating dogs..."
 # dog1= Dog.create(image:"http://www.dogsforsale.co.in/wp-content/uploads/2018/06/german-shepherd.jpg" ,breed:"German Shepherd", price:60000, user_id:1)
