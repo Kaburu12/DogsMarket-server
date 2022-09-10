@@ -25,10 +25,10 @@ class ApplicationController < Sinatra::Base
   end
 
   # get bookings
-#   get '/bookings' do
-#     bookings = Booking.all
-#     bookings.to_json
-# end
+  get '/bookings' do
+    bookings = Booking.all
+    bookings.to_json
+end
 
 #post bookings
 # post '/bookings' do
