@@ -8,14 +8,14 @@ class ApplicationController < Sinatra::Base
   end
 
   #post a dog
-  # post '/dogs' do
-  #   dog = Dog.create(
-  #     image: params[:image],
-  #     breed: params[:breed],
-  #     price: params[:price],
-  #   )
-  #   dog.to_json
-  # end
+  post '/dogs' do
+    dog = Dog.create(
+      image: params[:image],
+      breed: params[:breed],
+      price: params[:price],
+    )
+    dog.to_json
+  end
 
   # delete '/dogs/:id' do
   #   dog = Dog.find(params[:id])
