@@ -31,14 +31,14 @@ class ApplicationController < Sinatra::Base
 end
 
 #post bookings
-# post '/bookings' do
-#   booking = Booking.create(
-#     number: params[:number],
-#     service: params[:service],
-#     location: params[:location],
-#   )
-#   booking.to_json
-# end
+post '/bookings' do
+  booking = Booking.create(
+    number: params[:number],
+    service: params[:service],
+    location: params[:location],
+  )
+  booking.to_json
+end
 
 
   # patch '/dogs/:id' do
