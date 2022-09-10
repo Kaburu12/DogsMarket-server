@@ -19,8 +19,8 @@ dog6=Dog.create(image:"https://images.unsplash.com/photo-1596492784531-6e6eb5ea9
 dog7=Dog.create(image:"https://images.unsplash.com/photo-1586392040092-88b64dc9d9e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", breed:"Bull Dog", price:60000, user_id:1)
 dog8=Dog.create(image:"https://images.unsplash.com/photo-1580129518790-0482fc5eed65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" ,breed:"Eurohound", price:80000, user_id:1)
 
-# puts "Creating bookings..."
-# booking1= Booking.create(number:1,service:"Dog day care",location:"Ruai" ,user_id:1)
-# booking2= Booking.create(number:1,service:"Dog grooming",location:"Ruai" ,user_id:1)
+puts "Creating bookings..."
+booking1= Booking.create(number:1,service:"Dog day care",location:"Ruai" ,user_id:1)
+booking2= Booking.create(number:1,service:"Dog grooming",location:"Ruai" ,user_id:1)
 
 puts "✅ Done seeding!"
