@@ -21,7 +21,10 @@ https://github.com/Kaburu12/DogsMarket-Client.git
 ## GitHub-Back-End-Repo-Link
 https://github.com/Kaburu12/DogsMarket-server.git
 
-## Back-End-Links
+## Backend-End-Poits-Links
+https://dogsmarket1234.herokuapp.com/dogs
+
+https://dogsmarket1234.herokuapp.com/bookings
 
 ## Technology-Used
 sqlite3- used to create a database
